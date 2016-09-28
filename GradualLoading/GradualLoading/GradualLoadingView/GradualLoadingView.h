@@ -11,6 +11,15 @@
 @interface GradualLoadingView : UIView
 
 /**
+ 初始化方法
+
+ @param frame frame
+
+ @return 实例对象
+ */
+- (instancetype)initWithFrame:(CGRect)frame;
+
+/**
  开始动画
  */
 - (void)startAnimation;
